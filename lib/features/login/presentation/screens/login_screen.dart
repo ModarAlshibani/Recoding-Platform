@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:recoding_platform_project/features/login/ui/widgets/creat_account_button.dart';
-import 'package:recoding_platform_project/features/login/ui/widgets/email_and_password.dart';
-import 'package:recoding_platform_project/features/login/ui/widgets/login_texts.dart';
-import 'package:recoding_platform_project/features/login/ui/widgets/rememberme_forgot_password.dart';
+import 'package:recoding_platform_project/features/login/presentation/widgets/creat_account_button.dart';
+import 'package:recoding_platform_project/features/login/presentation/widgets/email_and_password.dart';
+import 'package:recoding_platform_project/features/login/presentation/widgets/login_texts.dart';
+import 'package:recoding_platform_project/features/login/presentation/widgets/rememberme_forgot_password.dart';
 import 'package:recoding_platform_project/src/components/auth_button.dart';
 import 'package:recoding_platform_project/src/components/header.dart';
 import 'package:recoding_platform_project/src/components/login_footer.dart';

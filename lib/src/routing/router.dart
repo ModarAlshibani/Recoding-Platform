@@ -1,7 +1,8 @@
 import 'package:bot_toast/bot_toast.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:recoding_platform_project/features/login/ui/login_screen.dart';
+import 'package:recoding_platform_project/features/login/presentation/screens/login_screen.dart';
+import 'package:recoding_platform_project/features/register/presentation/screens/register_screen.dart';
 import 'package:recoding_platform_project/src/routing/custom_navigation_observer.dart';
 import 'package:recoding_platform_project/src/routing/routes.dart';
 import 'fallback_screen.dart';
@@ -21,6 +22,11 @@ final goRouter = GoRouter(
     GoRoute(
       path: Routes.login,
       builder: (context, state) => LoginScreen(),
+    ),
+
+    GoRoute(
+      path: Routes.register,
+      builder: (context, state) => RegisterScreen(),
     ),
     // Add more routes here
   ],

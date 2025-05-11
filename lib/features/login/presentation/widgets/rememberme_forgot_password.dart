@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:recoding_platform_project/features/login/ui/widgets/remember_me.dart';
+import 'package:recoding_platform_project/features/login/presentation/widgets/remember_me.dart';
 import 'package:recoding_platform_project/src/themes/app_colors.dart';
 
 class RemembermeForgotPassword extends StatelessWidget {
